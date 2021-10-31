@@ -1,0 +1,46 @@
+
+/* Title */
+.heading{
+    font-size: 62px; 
+    font-family: Apple Chancery, cursive;
+    text-align: center;
+}
+
+/*Background */
+body{
+    background: rgb(255,253,208);
+}
+
+
+/* Formatting for the Boxes and Images*/
+.entry {
+    border: 3px solid #888;
+    border-radius: 15px;
+    background: #FFCBA4;
+    padding: 20px 20px 20px 20px;
+    flex: 50%;
+}
+
+.entry img {
+    width: 400px;
+    height: 400px;
+    display:block;
+    margin: auto;
+}
+
+.entry img:hover{
+    transform: scale(1.05);
+    transition: all ease;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(136, 219, 140);
+}
+.row{
+    display: flex;
+    gap: 20px
+}
+
+.food_name{
+    font-size: 30px; 
+    font-family: Apple Chancery, cursive;
+    text-align: center;
+}
