@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <script src="book.js" defer></script>
+    </header>
+
+    <body>
+        <header>
+            <h1>Odin's Library</h1>
+        </header>
+
+        <div>
+            <button id = "add_book">Add Book</button>
+        </div>
+
+
+        <section>
+            <form action="" class="form">
+
+                <div class="title">
+                    <input type="text" name="title" placeholder="Title" required />
+                </div>
+
+                <div class="author">
+                    <input type="text" name="author" placeholder="Author" required/>
+                </div>
+
+                <div class="pages">
+                    <input
+                        type="number"
+                        name="pages"
+                        min="0"
+                        maxlength = 8
+                        placeholder = "Number of Pages read"
+                        required
+                    />
+                </div>
+
+                <div class="read">
+                    <label for="read">Have you read it?</label>
+                    <input type="checkbox" name="read" />
+                </div>
+
+                <div class="submit">
+                    <input type="submit" value="Add Book" />
+                </div>
+            </form>
+        </section>
+        
+    </body>
+</html>

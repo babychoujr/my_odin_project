@@ -13,18 +13,20 @@ body{
 
 /* Formatting for the Boxes and Images*/
 .entry {
-    border: 3px solid #888;
+    border: 5px solid #888;
     border-radius: 15px;
     background: #FFCBA4;
     padding: 20px 20px 20px 20px;
-    flex: 50%;
+    margin: 20px;
+    height: 400px;
+    width: 350  px;
+    box-sizing: border-box;
 }
 
-.entry img {
-    width: 400px;
-    height: 400px;
-    display:block;
-    margin: auto;
+.entry img{
+    width: 300px;
+    height: 300px;
+    display: block
 }
 
 .entry img:hover{
@@ -35,7 +37,8 @@ body{
 }
 .row{
     display: flex;
-    gap: 20px
+    align-items: center;
+    justify-content: center;
 }
 
 .food_name{

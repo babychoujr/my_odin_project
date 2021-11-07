@@ -1,0 +1,13 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+
+.box-one{
+    background-color: red;
+    padding: 20px;
+    border: 20px solid;
+    margin: 20px solid green;
+}
