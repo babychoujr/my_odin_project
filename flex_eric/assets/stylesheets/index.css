@@ -67,6 +67,49 @@ body{
     color: sienna;
 }
 
+.works-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eee; 
+}
+
+.works-page .card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background: white;
+}
+
+.works-page .card:hover {
+    box-shadow: 0 100px 100px 0 rgba(0,0,0,0.2);
+}
+
+.works-page ul{
+    gap: 16px;
+    padding: 30px;
+}
+.works-page li{
+    padding: 2px 16px;
+    border-radius: 5px 5px 0 0;
+}
+.works-page p{
+    text-align: center;
+    color: black;
+}
+.works-page #image-columns{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.works-page #image-alu{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+
 .footer{
     display: flex;
     justify-content: center;
